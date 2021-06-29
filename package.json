@@ -9,6 +9,7 @@
     "bootstrap": "4.6",
     "cross-spawn": "^7.0.3",
     "jquery": "^3.6.0",
+    "parse-json": "5.2.0",
     "popper.js": "^1.16.1",
     "turbolinks": "^5.2.0"
   },
