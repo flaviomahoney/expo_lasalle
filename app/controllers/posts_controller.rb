@@ -9,14 +9,8 @@ class PostsController < ApplicationController
 
     def create
         @post = Post.new(post_params)
-        authorize @post
-        if @post.save
-          flash[:success] = "Object successfully created"
-          redirect_to @post
-        else
-          flash[:alert] = "Something went wrong"
-          render 'new'
-        end
+		@post.save
+		redirect_to posts_path
     end
 
     private
