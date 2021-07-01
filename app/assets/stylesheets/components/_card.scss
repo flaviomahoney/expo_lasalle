@@ -17,18 +17,13 @@
 }
 
 .card-trip p {
-  font-size: 12px;
-  opacity: .7;
+  font-size: 15px;
   margin: 0;
 }
 
 
 .card-trip .card-trip-infos {
   padding: 16px;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  position: relative;
 }
 
 .card-trip-infos .card-trip-user {
@@ -42,6 +37,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 16px;
+  margin-bottom: 50px;
 }
 
 // Smallest device
@@ -77,5 +73,16 @@
   .cards {
     grid-template-columns: 1fr 1fr 1fr;
   }
+}
+
+.textos {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.stat {
+  width: 600px;
+  height: 600px;
 }
 

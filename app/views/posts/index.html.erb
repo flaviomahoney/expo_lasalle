@@ -1,13 +1,128 @@
 <div class="container">
-    <h1>TEXTO VAI SER COLOCADO AQUI</h1>
+    <div class="textos">
+        <div class="texto">
+                <h2>Expo Lasalle</h2>
+                <p>Em todas as cidades, umas mais e outras menos, há desigualdade social. Uma pesquisa do IPEA aponta que o Brasil apresenta desigualdade total de renda de 51,5%.</p>
+                <p>A região metropolitana do Rio conta com mais de 13 milhões de habitantes, distribuídos em 22 cidades. 10 deles formam a baixada Fluminense, onde moradores encontram os piores indicadores de desenvolvimento humano e social do estado.</p>
+                <p>Na cidade de Niterói, existe a Casa Fluminense que é uma ONG, criada em 2013 dedicada ao debate e a construção coletiva de políticas e ações públicas para metrópole do Rio de Janeiro. O mapa da desigualdade examinou indicadores de desenvolvimento social, como habitação, emprego, transporte, segurança, saneamento, saúde, educação, cultura, assistência social e gestão pública, sob a ótica da justiça: econômica, racial, de gênero e sócioambiental.</p>
+                <p>Referências bibliográficas:</p>
+                <p>ESTUDO MOSTRA DESIGUALDADE EM NITERÓI; NEGROS VIVEM 13 ANOS MENOS QUE BRANCOS. A seguir Niterói, 2020. 
+                Disponível em: https://www.aseguirniteroi.com.br/post/estudo-mostra-desigualdade-em-niter%C3%B3i-negros-vivem-13-anos-menos-que-brancos
+                Acesso em: 30 de Junho 2021.</p>      
+                <p>RIO ESTÁ ENTRE AS 10 METRÓPOLES MAIS DESIGUAIS DO MUNDO. G1, 2020. 
+                Disponível em: https://g1.globo.com/rj/rio-de-janeiro/noticia/2020/07/13/rio-esta-entre-as-10-metropoles-mais-desiguais-do-mundo-diz-estudo-da-casa-fluminense.ghtml</p>
+        </div>
+        <%= image_tag("https://res.cloudinary.com/dmcepupsl/image/upload/v1625178129/FOTO11_pcqfr5.jpg", class: "stat")%>
+    </div>
     <div class="cards">
-        <% @posts.each do |post| %> 
-            <div class="card-trip">
-                <%= image_tag(post.photo) %>
-                <div class="card-trip-infos">
-                    <%= post.description  %>
-                </div>
+        <div class="card-trip">
+                <%= image_tag("https://res.cloudinary.com/dmcepupsl/image/upload/v1625176375/FOTO_1_yckspa.jpg") %>
+            <div class="card-trip-infos">
+                <p>Fila de moradores de rua buscando comida.</p>
+                <p>Localização: Amaral Peixoto, Centro - Niterói, RJ</p>
+                <p>Autor: Esdras Márcio</p>
+                <p>Ano: 2021</p>
             </div>
-        <%end%>
+        </div>
+        
+        <div class="card-trip">
+                <%= image_tag("https://res.cloudinary.com/dmcepupsl/image/upload/v1625176894/foto2_ygk091.jpg") %>
+            <div class="card-trip-infos">
+                <p>Queremos Moradia</p>
+                <p>Localização: Niterói - RJ</p>
+                <p>Autor: Esdras Márcio</p>
+                <p>Ano: 2019</p>
+            </div>
+        </div>
+
+        <div class="card-trip">
+                <%= image_tag("https://res.cloudinary.com/dmcepupsl/image/upload/v1625176987/foto3_fuj7xd.jpg") %>
+            <div class="card-trip-infos">
+                <p>Preconceitos não! Moradias sim!</p>
+                <p>Localização: Câmara Municipal</p>
+                <p>Autor: Desconhecido</p>
+                <p>Ano: 2019</p>
+            </div>
+        </div>
+
+        <div class="card-trip">
+                <%= image_tag("https://res.cloudinary.com/dmcepupsl/image/upload/v1625177090/foto4_kczi2e.jpg") %>
+            <div class="card-trip-infos">
+                <p>Vítimas de despejo</p>
+                <p>Localização: Amaral Peixoto, Centro - Niterói, RJ</p>
+                <p>Autor: Desconhecido</p>
+                <p>Ano: 2019</p>
+            </div>
+        </div>
+
+        <div class="card-trip">
+                <%= image_tag("https://res.cloudinary.com/dmcepupsl/image/upload/v1625177191/foto5_mhvix5.jpg") %>
+            <div class="card-trip-infos">
+                <p>Sobrevivendo com pouco</p>
+                <p>Localização: São Gonçalo</p>
+                <p>Autor: Felipe de Abreu</p>
+                <p>Ano: 2021</p>
+            </div>
+        </div>
+
+        <div class="card-trip">
+                <%= image_tag("https://res.cloudinary.com/dmcepupsl/image/upload/v1625177276/foto6_vi77vm.jpg") %>
+            <div class="card-trip-infos">
+                <p>Injustiçados e abandonados</p>
+                <p>Localização: Amaral Peixoto, Centro - Niterói, RJ</p>
+                <p>Autor: Desconhecido</p>
+                <p>Ano: 2019</p>
+            </div>
+        </div>
+
+        <div class="card-trip">
+                <%= image_tag("https://res.cloudinary.com/dmcepupsl/image/upload/v1625177389/foto7_j6popv.jpg") %>
+            <div class="card-trip-infos">
+                <p>Ex-moradores do prédio da Caixa protestando em frente à prefeitura</p>
+                <p>Localização: Prefeitura Municipal de Niterói - Niterói, RJ</p>
+                <p>Autor: Desconhecido </p>
+                <p>Ano: 2019</p>
+            </div>
+        </div>
+
+        <div class="card-trip">
+                <%= image_tag("https://res.cloudinary.com/dmcepupsl/image/upload/v1625177483/foto8_ixbxdv.jpg") %>
+            <div class="card-trip-infos">
+                <p>Manifestações contra a ação de despejo dos moradores do prédio caixa</p>
+                <p>Localização: Desconhecido</p>
+                <p>Autor: Desconhecido</p>
+                <p>Ano: 2019</p>
+            </div>
+        </div>
+
+        <div class="card-trip">
+                <%= image_tag("https://res.cloudinary.com/dmcepupsl/image/upload/v1625177565/foto9_el5cxg.jpg") %>
+            <div class="card-trip-infos">
+                <p>Manifestação dos moradores despejados do prédio caixa</p>
+                <p>Localização: Amaral Peixoto, Centro - Niterói, RJ</p>
+                <p>Autor: Desconhecido</p>
+                <p>Ano: 2019</p>
+            </div>
+        </div>
+
+        <div class="card-trip">
+                <%= image_tag("https://res.cloudinary.com/dmcepupsl/image/upload/v1625177650/foto10_gcecxg.jpg") %>
+            <div class="card-trip-infos">
+                <p>Desigualdade social</p>
+                <p>Localização: Rocinha</p>
+                <p>Autor: Alicia Nijdam</p>
+                <p>Ano: 2008</p>
+            </div>
+        </div>
+
+        <div class="card-trip">
+                <%= image_tag("https://res.cloudinary.com/dmcepupsl/image/upload/v1625178617/foto12_lwcim0.jpg") %>
+            <div class="card-trip-infos">
+                <p>Indivíduo estudando à luz de velas</p>
+                <p>Localização: Niterói - RJ</p>
+                <p>Autor: Esdras Márcio</p>
+                <p>Ano: 2021</p>
+            </div>
+        </div>
     </div>
 </div>

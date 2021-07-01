@@ -11,7 +11,7 @@ puts "Starting"
 
 Post.destroy_all
 
-first_photo = "https://images.unsplash.com/photo-1518176258769-f227c798150e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80"
+first_photo = "https://res.cloudinary.com/dmcepupsl/image/upload/v1624484750/algai63dycvscrcp4be90k148824.png"
 file = URI.open(first_photo)
 filename = File.basename(URI.parse(first_photo).path)
 first = Post.create(description: "Beer", user: User.all.sample)
